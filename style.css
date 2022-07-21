@@ -795,8 +795,8 @@ ul > li {
   	border-width: 0 3px 3px 0;
   	display: inline-block;
   	padding: 3px;
-  	/* margin-left: 10px; */
-	margin-left: 20px;
+  	/* 修改上方導航間距 */
+	margin-left: 1px;
   	transform: rotate(45deg);
   	-webkit-transform: rotate(45deg);
 }
@@ -818,6 +818,7 @@ ul > li {
 	margin-bottom: -8px;
 }
 
+/*照片修改清晰度*/
 .banner img {
 	opacity: 0.5; 
     filter: alpha(opacity=50); 
