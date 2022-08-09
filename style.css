@@ -54,7 +54,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
- /**專題演講測試**/
+ /**修改上方導航搜尋menu-parent::after**/
 
  #DIV1{
 	width:200px;　 /*DIV區塊寬度*/
@@ -796,7 +796,7 @@ ul > li {
   	display: inline-block;
   	padding: 3px;
   	/* 修改上方導航間距 */
-	margin-left: 1px;
+	margin-left: 100px;
   	transform: rotate(45deg);
   	-webkit-transform: rotate(45deg);
 }
