@@ -3,8 +3,9 @@
 
 首頁是index.html，上面的menupage分別應對每個中文，如果有需要就把名字改掉
 要注意的是如果改動上方的任何一個分頁，則其他的網頁也需要跟著更動。
+文字那些排版我主要都是用表格，相對比較簡單，有需要的話參考我的自己新增就可以。
 
-#### 網頁內容
+#### html網頁內容
 
 - 首頁
 - 大會組織
@@ -50,3 +51,45 @@
 
 遇到這種的基本上可以不要理他，但是未來有需要的話就用`ctrl+ /` 的快捷鍵去掉註解
 就可以再前面的網頁顯示出結果了。
+
+***
+
+#### css部分
+
+css的部份的話主要是用來控制網頁元素的一些變化，比方說圖片放大縮小，
+如果menu一旦修改內容的話，裡面的字都需要新的排版，因此就需要更動`style.css`的內容(下方)
+
+
+
+```
+.menu-parent::after {
+	content: "";
+	border: solid #3a3a3a;
+  	border-width: 0 3px 3px 0;
+  	display: inline-block;
+  	padding: 3px;
+  	/* 修改上方導航間距 */
+	margin-left: 100px;
+  	transform: rotate(45deg);
+  	-webkit-transform: rotate(45deg);
+}
+```
+
+只要直接搜尋margin-left的部分，把`100px`的地方數字依照看狀況調整大小就可以了
+
+banner的大小要是要換的話，就是修改下方程式碼:
+
+```
+.banner img {
+	/*banner 照片的設計 調整長寬都放在這*/ 
+	opacity: 0.5; 
+    filter: alpha(opacity=50); 
+	height: 600px;
+	width: 100%;
+}
+```
+
+其中`opacity: 0.5; `的地方設置為1的話就會是完全清晰，往下設置就會模糊
+`	height: 600px;
+	width: 100%;`  的部分修改長寬
+	
