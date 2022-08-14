@@ -96,4 +96,7 @@ banner的大小要是要換的話，就是修改下方程式碼:
 
 `	height: 600px;
 	width: 100%;`  的部分修改長寬的結果。
+
+
 	
+> 可以參考的網站: https://www.w3schools.com/tags/default.asp
