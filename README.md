@@ -101,3 +101,5 @@ banner的大小要是要換的話，就是修改下方程式碼:
 
 	
 > 可以參考的網站: https://www.w3schools.com/tags/default.asp
+> 我網站的github連結: https://github.com/William160713/MC2022
+> 我網站的github連結: https://github.com/William160713/WASN2022
